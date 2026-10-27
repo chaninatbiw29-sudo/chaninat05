@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>วิทยาลัยเทคนิคนางรอง | Nangrong Technical College</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <!-- ใส่รูปโลโก้จริงที่นี่ -->
+                <img src="photo/วท.jpg" alt="โลโก้วิทยาลัยเทคนิคนางรอง" class="logo-img">
+                <div class="brand-text">
+                    <span class="th-title">วิทยาลัยเทคนิคนางรอง</span>
+                    <span class="en-title">Nangrong Technical College</span>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="เปิดเมนู">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#about" class="nav-item">
+                    <i class="fas fa-university"></i> 1. รายละเอียดวิทยาลัย
+                </a>
+                <a href="#map" class="nav-item">
+                    <i class="fas fa-map-marked-alt"></i> 2. แผนที่และผังวิทยาลัย
+                </a>
+                <a href="#contact" class="nav-item">
+                    <i class="fas fa-paper-plane"></i> 3. ข้อมูลการติดต่อ
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge"><i class="fas fa-graduation-cap"></i> สถาบันอาชีวศึกษาชั้นนำ</span>
+            <h1>ยินดีต้อนรับสู่ <br><span class="highlight-text">วิทยาลัยเทคนิคนางรอง</span></h1>
+            <p>มุ่งมั่นผลิตและพัฒนากำลังคนด้านวิชาชีพ ให้มีความรู้ คู่คุณธรรม และได้มาตรฐานสากล</p>
+            
+            <div class="hero-btn-group">
+                <a href="#about" class="btn btn-primary"><i class="fas fa-info-circle"></i> รายละเอียดวิทยาลัย</a>
+                <a href="#map" class="btn btn-outline"><i class="fas fa-map-marker-alt"></i> ดูแผนผังวิทยาลัย</a>
+                <a href="#contact" class="btn btn-secondary"><i class="fas fa-phone-alt"></i> ติดต่อเรา</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Details -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-badge">Section 1</span>
+                <h2><i class="fas fa-university text-emerald"></i> รายละเอียดของวิทยาลัย</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <!-- Vision / Mission Grid -->
+            <div class="grid-3 mb-5">
+                <div class="card info-card">
+                    <div class="card-icon"><i class="fas fa-eye"></i></div>
+                    <h3>วิสัยทัศน์ (Vision)</h3>
+                    <p>เป็นศูนย์กลางการศึกษาวิชาชีพที่ทันสมัย ผลิตกำลังคนที่มีคุณภาพและทักษะสูง สอดคล้องกับความต้องการของตลาดแรงงานและสังคมยุคดิจิทัล</p>
+                </div>
+                <div class="card info-card">
+                    <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>พันธกิจ (Mission)</h3>
+                    <p>จัดการศึกษาวิชาชีพให้ผู้เรียนมีความรู้ ความสามารถ ทักษะฝีมือ ปลูกฝังคุณธรรม จริยธรรม จิตสำนึกในสถาบัน และพัฒนาเทคโนโลยีสู่นวัตกรรม</p>
+                </div>
+                <div class="card info-card">
+                    <div class="card-icon"><i class="fas fa-heart"></i></div>
+                    <h3>ปรัชญา (Philosophy)</h3>
+                    <p><strong>"ทักษะเยี่ยม เปี่ยมคุณธรรม เลิศเลอนวัตกรรม นำสังคม"</strong> มุ่งเน้นการสร้างสรรค์บุคลากรคุณภาพเพื่อการพัฒนาประเทศ</p>
+                </div>
+            </div>
+
+            <!-- Courses Offered -->
+            <div class="card mb-5">
+                <h3 class="card-title"><i class="fas fa-book-reader"></i> หลักสูตรเปิดสอน (Curriculum)</h3>
+                <div class="grid-2">
+                    <div class="course-box">
+                        <div class="course-header">
+                            <span class="course-badge">ปวช.</span>
+                            <h4>ประกาศนียบัตรวิชาชีพ</h4>
+                        </div>
+                        <ul class="check-list">
+                            <li><i class="fas fa-check-circle"></i> สาขาวิชาช่างยนต์ / ช่างกลโรงงาน</li>
+                            <li><i class="fas fa-check-circle"></i> สาขาวิชาช่างไฟฟ้ากำลัง / อิเล็กทรอนิกส์</li>
+                            <li><i class="fas fa-check-circle"></i> สาขาวิชาช่างก่อสร้าง / สถาปัตยกรรม</li>
+                            <li><i class="fas fa-check-circle"></i> สาขาวิชาการบัญชี / การตลาด</li>
+                            <li><i class="fas fa-check-circle"></i> สาขาวิชาเทคโนโลยีสารสนเทศ</li>
+                        </ul>
+                    </div>
+                    <div class="course-box">
+                        <div class="course-header">
+                            <span class="course-badge gold">ปวส.</span>
+                            <h4>ประกาศนียบัตรวิชาชีพชั้นสูง</h4>
+                        </div>
+                        <ul class="check-list">
+                            <li><i class="fas fa-check-circle"></i> สาขางานเทคนิคยานยนต์ / เทคนิคการผลิต</li>
+                            <li><i class="fas fa-check-circle"></i> สาขางานไฟฟ้าควบคุม / อิเล็กทรอนิกส์อุตสาหกรรม</li>
+                            <li><i class="fas fa-check-circle"></i> สาขางานการบัญชี / เทคโนโลยีดิจิทัล</li>
+                            <li><i class="fas fa-check-circle"></i> สาขางานเทคนิคสถาปัตยกรรม</li>
+                            <li><i class="fas fa-check-circle"></i> หลักสูตรทวิภาคี (เรียนและฝึกงานในสถานประกอบการ)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photo Gallery -->
+            <div class="gallery-wrapper">
+                <h3 class="sub-title"><i class="fas fa-images"></i> ภาพบรรยากาศและกิจกรรมวิทยาลัย</h3>
+                <p class="sub-desc">คลิกที่ภาพเพื่อขยายดูรายละเอียดเพิ่มเติม</p>
+                
+                <div class="gallery-grid">
+                    <!-- สามารถเปลี่ยน URL รูปภาพในช่อง src ได้ที่นี่ -->
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80', 'อาคารเรียนวิทยาลัยเทคนิคนางรอง')">
+                        <img src="photo/อาคารเรียน.jpg" alt="อาคารเรียนวิทยาลัยเทคนิคนางรอง">
+                        <div class="gallery-caption">
+                            <span>อาคารเรียนและทัศนียภาพ</span>
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80', 'ห้องปฏิบัติการช่างยนต์และเทคโนโลยี')">
+                        <img src="photo/รูป.jpg" alt="ห้องปฏิบัติการช่างยนต์และเทคโนโลยี">
+                        <div class="gallery-caption">
+                            <span>ศูนย์ปฏิบัติการทางเทคโนโลยี</span>
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80', 'การเรียนการสอนสาขาช่างไฟฟ้า')">
+                        <img src="photo/ห้องสอน.jpg" alt="การเรียนการสอนสาขาช่างไฟฟ้า">
+                        <div class="gallery-caption">
+                            <span>การฝึกทักษะวิชาชีพจริง</span>
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80', 'กิจกรรมนักเรียนนักศึกษา')">
+                        <img src="photo/กิจกรรมวท.jpg" alt="กิจกรรมนักเรียนนักศึกษา">
+                        <div class="gallery-caption">
+                            <span>กิจกรรมเสริมสร้างทักษะและคุณธรรม</span>
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Map & Layout -->
+    <section id="map" class="section bg-white">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-badge">Section 2</span>
+                <h2><i class="fas fa-map-marked-alt text-emerald"></i> แผนที่และผังวิทยาลัยเทคนิคนางรอง</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="grid-2">
+                <!-- Interactive Campus Layout -->
+                <div class="card map-card">
+                    <div class="map-header">
+                        <h3><i class="fas fa-sitemap"></i> แผนผังภายในวิทยาลัย (Campus Map)</h3>
+                        <p>คลิกเลือกตำแหน่งเพื่อดูข้อมูลอาคารสถานที่</p>
+                    </div>
+                    
+                    <div class="campus-layout-graphic">
+                        <svg viewBox="0 0 800 500" class="svg-map">
+                            <!-- Background Grid -->
+                            <rect width="800" height="500" fill="#f0fdf4" rx="12" />
+                            <path d="M 0,250 L 800,250" stroke="#cbd5e1" stroke-width="20" stroke-dasharray="10 5"/>
+                            <path d="M 400,0 L 400,500" stroke="#cbd5e1" stroke-width="16"/>
+                            
+                            <!-- Entrance Gate -->
+                            <rect x="350" y="460" width="100" height="30" fill="#0f5132" rx="4"/>
+                            <text x="400" y="480" fill="#ffffff" font-size="12" text-anchor="middle" font-weight="bold">ประตูทางเข้าหลัก</text>
+
+                            <!-- Buildings -->
+                            <g class="map-building" onclick="selectBuilding('อาคารอำนวยการ (อาคาร 1)', 'ศูนย์รวมงานบริหาร สำนักงานผู้อำนวยการ ฝ่ายวิชาการ ฝ่ายการเงิน และงานทะเบียนนักเรียนนักศึกษา')">
+                                <rect x="310" y="320" width="180" height="80" rx="8" class="bld-rect bld-main"/>
+                                <text x="400" y="365" fill="#ffffff" font-size="14" text-anchor="middle" font-weight="bold">🏢 อาคารอำนวยการ (1)</text>
+                            </g>
+
+                            <g class="map-building" onclick="selectBuilding('กลุ่มอาคารปฏิบัติการช่างอุตสาหกรรม', 'แผนกช่างยนต์, ช่างกลโรงงาน, ช่างเชื่อมโลหะ และช่างไฟฟ้ากำลัง พร้อมเครื่องมือมาตรฐาน')">
+                                <rect x="60" y="100" width="220" height="120" rx="8" class="bld-rect bld-tech"/>
+                                <text x="170" y="165" fill="#0f5132" font-size="14" text-anchor="middle" font-weight="bold">⚙️ โรงฝึกงานช่างอุตสาหกรรม</text>
+                            </g>
+
+                            <g class="map-building" onclick="selectBuilding('อาคารเรียนพาณิชยกรรม & IT', 'ห้องเรียนวิชาการ, ห้องคอมพิวเตอร์กราฟิก, แผนกการบัญชี และเทคโนโลยีสารสนเทศ')">
+                                <rect x="520" y="100" width="220" height="120" rx="8" class="bld-rect bld-tech"/>
+                                <text x="630" y="165" fill="#0f5132" font-size="14" text-anchor="middle" font-weight="bold">💻 อาคารเรียน IT & บริหาร</text>
+                            </g>
+
+                            <g class="map-building" onclick="selectBuilding('หอประชุม & ลานอเนกประสงค์', 'สถานที่จัดพิธีไหว้ครู กิจกรรมปฐมนิเทศ และกิจกรรมการแข่งขันกีฬาภายใน')">
+                                <rect x="300" y="60" width="200" height="90" rx="8" class="bld-rect bld-hall"/>
+                                <text x="400" y="110" fill="#0f5132" font-size="14" text-anchor="middle" font-weight="bold">🏛️ หอประชุมใหญ่</text>
+                            </g>
+
+                            <!-- Flagpole -->
+                            <circle cx="400" cy="250" r="18" fill="#10b981" />
+                            <text x="400" y="254" fill="#ffffff" font-size="10" text-anchor="middle">เสาธง</text>
+                        </svg>
+                    </div>
+
+                    <div id="buildingInfoBox" class="building-info-box">
+                        <i class="fas fa-info-circle info-icon"></i>
+                        <div>
+                            <h4 id="bldTitle">คลิกที่อาคารในผังเพื่อดูข้อมูล</h4>
+                            <p id="bldDesc">ท่านสามารถคลิกที่กลุ่มอาคารต่างๆ บนแผนผังด้านบน เพื่อดูรายละเอียดแผนกและสถานที่ใช้งานได้ทันที</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps Location -->
+                <div class="card map-card">
+                    <div class="map-header">
+                        <h3><i class="fas fa-globe-asia"></i> แผนที่ตั้งวิทยาลัย (Google Maps)</h3>
+                        <p>พิกัดการเดินทางและเส้นทางจราจร</p>
+                    </div>
+
+                    <div class="google-map-container">
+                        <!-- Google Maps Embed -->
+                        <iframe 
+                            src="photo/แผนที่วท.jpg" 
+                            width="100%" 
+                            height="320" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="แผนที่วิทยาลัยเทคนิคนางรอง">
+                        </iframe>
+                    </div>
+
+                    <div class="location-details">
+                        <p><i class="fas fa-map-pin text-emerald"></i> <strong>ที่ตั้ง:</strong> เลขที่ 1 หมู่ 1 ถ.บ้านเก่า-แพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</p>
+                        <a href="https://maps.google.com/?q=Nangrong+Technical+College" target="_blank" class="btn btn-outline btn-block mt-3">
+                            <i class="fas fa-directions"></i> นำทางด้วย Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Contact Info -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-badge">Section 3</span>
+                <h2><i class="fas fa-paper-plane text-emerald"></i> ข้อมูลการติดต่อวิทยาลัยเทคนิคนางรอง</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="grid-2">
+                <!-- Contact Direct Details -->
+                <div class="contact-info-wrapper">
+                    <div class="card contact-card active-border">
+                        <h3><i class="fas fa-address-book"></i> ช่องทางติดต่อสอบถาม</h3>
+                        <p class="mb-4">ยินดีให้คำปรึกษาด้านการเข้าศึกษาต่อ ทะเบียนนักเรียน และการติดต่อประสานงานราชการ</p>
+
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <h5>ที่อยู่สถาบัน</h5>
+                                    <p>1 หมู่ 1 ถ.บ้านเก่า-แพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <h5>เบอร์โทรศัพท์ติดต่อ</h5>
+                                    <p>044-631-086 (งานประชาสัมพันธ์/งานสารบรรณ)</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h5>ไปรษณีย์อิเล็กทรอนิกส์ (E-mail)</h5>
+                                    <p>saraban@nrtech.ac.th / info@nrtech.ac.th</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fab fa-facebook-f"></i></div>
+                                <div>
+                                    <h5>เฟซบุ๊กแฟนเพจ (Facebook)</h5>
+                                    <p><a href="https://www.facebook.com" target="_blank">วิทยาลัยเทคนิคนางรอง Official Page</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fas fa-clock"></i></div>
+                                <div>
+                                    <h5>เวลาทำการ (Business Hours)</h5>
+                                    <p>วันจันทร์ - วันศุกร์ : 08.30 น. - 16.30 น. (หยุดวันเสาร์-อาทิตย์ และวันหยุดนักขัตฤกษ์)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <div class="card contact-card">
+                        <h3><i class="fas fa-envelope-open-text"></i> ฝากข้อความติดต่อกลับ</h3>
+                        <p class="mb-4">กรอกข้อมูลในแบบฟอร์มด้านล่าง เจ้าหน้าที่จะติดต่อกลับโดยเร็วที่สุด</p>
+
+                        <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                            <div class="form-group">
+                                <label for="fullName">ชื่อ-นามสกุล <span class="required">*</span></label>
+                                <input type="text" id="fullName" class="form-control" placeholder="เช่น นายสมชาย ใจดี" required>
+                            </div>
+
+                            <div class="grid-2-form">
+                                <div class="form-group">
+                                    <label for="phone">เบอร์โทรศัพท์ <span class="required">*</span></label>
+                                    <input type="tel" id="phone" class="form-control" placeholder="08X-XXX-XXXX" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">อีเมล</label>
+                                    <input type="email" id="email" class="form-control" placeholder="name@example.com">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">หัวข้อที่ต้องการติดต่อ <span class="required">*</span></label>
+                                <select id="subject" class="form-control" required>
+                                    <option value="">-- เลือกหัวข้อการติดต่อ --</option>
+                                    <option value="สมัครเรียน/สอบถามหลักสูตร">สอบถามการสมัครเรียน / หลักสูตรการสอน</option>
+                                    <option value="งานทะเบียน/ผลการเรียน">สอบถามงานทะเบียน / เอกสารผลการเรียน</option>
+                                    <option value="ติดต่อราชการ/ประสานงาน">ติดต่อราชการ / งานสารบรรณ</option>
+                                    <option value="เรื่องอื่นๆ">เรื่องอื่นๆ</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">ข้อความ / รายละเอียด <span class="required">*</span></label>
+                                <textarea id="message" rows="4" class="form-control" placeholder="ระบุรายละเอียดข้อความที่ต้องการสอบถาม..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane"></i> ส่งข้อความติดต่อ
+                            </button>
+                        </form>
+
+                        <div id="formAlert" class="alert alert-success mt-3" style="display: none;">
+                            <i class="fas fa-check-circle"></i> ส่งข้อความเรียบร้อยแล้ว! เจ้าหน้าที่จะติดต่อกลับตามข้อมูลที่ระบุ
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h4>วิทยาลัยเทคนิคนางรอง</h4>
+                    <p>Nangrong Technical College</p>
+                    <p class="footer-address">สังกัดสำนักงานคณะกรรมการการอาชีวศึกษา กระทรวงศึกษาธิการ</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h5>ทางลัดหน้าเว็บ</h5>
+                    <ul>
+                        <li><a href="#about">รายละเอียดวิทยาลัย</a></li>
+                        <li><a href="#map">แผนที่และผังวิทยาลัย</a></li>
+                        <li><a href="#contact">ข้อมูลการติดต่อ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h5>ติดตามข่าวสาร</h5>
+                    <div class="social-icons">
+                        <a href="#" class="s-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="s-icon" aria-label="Line"><i class="fab fa-line"></i></a>
+                        <a href="#" class="s-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nangrong Technical College. All Rights Reserved. | พัฒนาขึ้นเพื่อประชาสัมพันธ์สถาบัน</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox Modal -->
+    <div id="lightboxModal" class="lightbox-modal" onclick="closeLightbox()">
+        <span class="close-lightbox">&times;</span>
+        <img id="lightboxImg" class="lightbox-content" src="" alt="ขยายรูปภาพ">
+        <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+
+    <!-- JS File Link -->
+    <script src="script.js"></script>
+</body>
+</html>
